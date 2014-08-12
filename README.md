@@ -5,11 +5,12 @@ that enables deeper integration of charts into web applications.
 
 c3-rails provides c3 for Rails 4 (it might work with Rails 3)
 
+
 ## Installation
 
-To install, add the following to your `Gemfile`:
+To install, add the following line to your `Gemfile`:
 
-    gem 'c3-rails', :git => 'https://github.com/SunnyLi/c3-rails', :submodules => true
+    gem 'c3-rails'
 
 Then add these to their respective file:
 
@@ -24,6 +25,7 @@ Then add these to their respective file:
 Now you've included `c3` into your rails project.
 
 But wait, there's more!
+
 
 ## Dependency: D3
 
@@ -41,6 +43,24 @@ having these gems in the first place...
 
 Now you're ready to use `c3` in any page that load assets handled by
 the asset pipeline.
+
+
+## Alternative install
+
+If you want to have access to all of `c3`'s source files you should add this line instead:
+
+    gem 'c3-rails', :git => 'https://github.com/SunnyLi/c3-rails', :submodules => true
+
+Then you'll be able to include files like
+
+```
+    //= require c3/c3
+    //= require c3/extensions/js/c3ext
+    
+    *= require c3/c3
+    *= require c3/htdocs/css/bootstrap.min.css
+```
+
 
 ## License
 
