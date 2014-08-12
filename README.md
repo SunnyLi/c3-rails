@@ -9,7 +9,7 @@ c3-rails provides c3 for Rails 4 (it might work with Rails 3)
 
 To install, add the following to your `Gemfile`:
 
-    gem 'c3-rails'
+    gem 'c3-rails', :git => 'https://github.com/SunnyLi/c3-rails', :submodules => true
 
 Then add these to their respective file:
 
