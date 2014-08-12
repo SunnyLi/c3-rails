@@ -9,7 +9,7 @@ c3-rails provides c3 for Rails 4 (it might work with Rails 3)
 
 To install, add the following to your `Gemfile`:
 
-    gem 'c3-rails', :submodules => true
+    gem 'c3-rails'
 
 Then add these to their respective file:
 
@@ -41,3 +41,9 @@ having these gems in the first place...
 
 Now you're ready to use `c3` in any page that load assets handled by
 the asset pipeline.
+
+## License
+
+Both [c3](https://github.com/masayuki0812/c3/blob/master/LICENSE)
+and [c3-rails](https://github.com/SunnyLi/c3-rails/blob/master/LICENSE)
+are licensed under the MIT license
