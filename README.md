@@ -54,8 +54,8 @@ So version `0.2.5` of this gem will provide
 
 ## Install using git submodule
 
-If you want to have access to all of `c3`'s source files
-you can install by having this line in the `Gemfile` instead:
+If you wish to have access to all of `c3`'s source files
+you can install by putting this line in the `Gemfile` instead:
 
     gem 'c3-rails', :git => 'https://github.com/SunnyLi/c3-rails', :submodules => true
 
@@ -63,8 +63,9 @@ Then you'll be able to include files like
 
 ```
     //= require c3/c3.min
+    //= require c3/c3.old
     //= require c3/extensions/js/c3ext
-    
+
     *= require c3/c3
     *= require c3/htdocs/css/bootstrap.min
 ```
