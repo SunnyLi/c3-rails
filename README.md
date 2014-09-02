@@ -37,29 +37,40 @@ to get `D3` installed try one of the following gems:
 - [d3js-rails](https://github.com/emilford/d3js-rails)
 
 or you could copy [d3.js](https://github.com/mbostock/d3/blob/master/d3.js)
-to your `assets/javascripts` manually which would defeat the purpose of
-having these gems in the first place...
+to your `assets/javascripts` manually.
 
 
-Now you're ready to use `c3` in any page that load assets handled by
-the asset pipeline.
+Now `c3` is ready to be used on any pages that have assets
+handled by rails asset pipeline.
 
 
-## Alternative install
+## Versioning
 
-If you want to have access to all of `c3`'s source files you should add this line instead:
+This gem now follows the version of `c3` being included.
+
+So version `0.2.5` of this gem will provide
+`c3` at version `0.2.5`.
+
+
+## Install using git submodule
+
+If you want to have access to all of `c3`'s source files
+you can install by having this line in the `Gemfile` instead:
 
     gem 'c3-rails', :git => 'https://github.com/SunnyLi/c3-rails', :submodules => true
 
 Then you'll be able to include files like
 
 ```
-    //= require c3/c3
+    //= require c3/c3.min
     //= require c3/extensions/js/c3ext
     
     *= require c3/c3
-    *= require c3/htdocs/css/bootstrap.min.css
+    *= require c3/htdocs/css/bootstrap.min
 ```
+
+This is just an example, not that you would ever want to
+include bootstrap into your project this way..
 
 
 ## License
