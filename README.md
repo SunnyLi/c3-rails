@@ -62,11 +62,12 @@ you can install by putting this line in the `Gemfile` instead:
 Then you'll be able to include files like
 
 ```
+    //= require c3/c3
     //= require c3/c3.min
-    //= require c3/c3.old
     //= require c3/extensions/js/c3ext
 
     *= require c3/c3
+    *= require c3/c3.min
     *= require c3/htdocs/css/bootstrap.min
 ```
 
