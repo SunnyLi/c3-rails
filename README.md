@@ -1,6 +1,6 @@
 # c3-rails
 
-[c3](https://github.com/masayuki0812/c3) is a D3-based reusable chart library
+[c3](https://github.com/c3js/c3) is a D3-based reusable chart library
 that enables deeper integration of charts into web applications.
 
 c3-rails provides c3 for Rails 4 (it might work with Rails 3)
@@ -77,6 +77,6 @@ include bootstrap into your project this way..
 
 ## License
 
-Both [c3](https://github.com/masayuki0812/c3/blob/master/LICENSE)
+Both [c3](https://github.com/c3js/c3/blob/master/LICENSE)
 and [c3-rails](https://github.com/SunnyLi/c3-rails/blob/master/LICENSE)
 are licensed under the MIT license
