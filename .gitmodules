@@ -1,4 +1,4 @@
 [submodule "vendor/assets/javascripts/c3"]
 	path = vendor/assets/javascripts/c3
-	url = git://github.com/c3js/c3.git
+	url = https://github.com/c3js/c3.git
 	branch = master
